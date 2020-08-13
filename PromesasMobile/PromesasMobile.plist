@@ -2,51 +2,42 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PromesasMobile.ipa</key>
+	<key>items</key>
 	<array>
 		<dict>
-			<key>architectures</key>
+			<key>assets</key>
 			<array>
-				<string>armv7</string>
-				<string>arm64</string>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://presidenciahndev.github.io/PromesasMobile/PromesasMobile.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://presidenciahndev.github.io/images/icon_promesa.57x57.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://presidenciahndev.github.io/images/icon_promesa.png</string>
+				</dict>
 			</array>
-			<key>certificate</key>
+			<key>metadata</key>
 			<dict>
-				<key>SHA1</key>
-				<string>FDC08DB748010EE46F7049779010AC210169B519</string>
-				<key>dateExpires</key>
-				<string>7/2/23</string>
-				<key>type</key>
-				<string>iOS Distribution</string>
-			</dict>
-			<key>entitlements</key>
-			<dict>
-				<key>application-identifier</key>
-				<string>X9YH3DH55R.hn.gob.promesas</string>
-				<key>com.apple.developer.team-identifier</key>
-				<string>X9YH3DH55R</string>
-				<key>get-task-allow</key>
-				<false/>
-				<key>keychain-access-groups</key>
-				<array>
-					<string>X9YH3DH55R.hn.gob.promesas</string>
-				</array>
-			</dict>
-			<key>name</key>
-			<string>Promesas.app</string>
-			<key>profile</key>
-			<dict>
-				<key>UUID</key>
-				<string>417dc15b-719c-4521-ae82-58372a7e7d8e</string>
-				<key>name</key>
-				<string>iOS Team Inhouse Provisioning Profile: hn.gob.promesas</string>
-			</dict>
-			<key>team</key>
-			<dict>
-				<key>id</key>
-				<string>X9YH3DH55R</string>
-				<key>name</key>
-				<string>Gobierno De La Republica De Honduras</string>
+				<key>bundle-identifier</key>
+				<string>hn.gob.promesas</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
+				<key>title</key>
+				<string>Promesas</string>
 			</dict>
 		</dict>
 	</array>

@@ -2,34 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Descargar Apps De Gobierno</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
+    </script>
 </head>
 <body>
     <div class="wrapper">
         <div class="header">
-            <h1>Aplicaciones Gobierno de la Republica de Honduras</h1>
-            <hr>
+            <div class="hstack">
+                <img src="images/escudo.png" width="70" height="70" alt="">
+                <h1>Gobierno de la República de Honduras</h1>
+            </div>
+        </div>
+        <div class="sub-header">
+            <h2>Aplicaciones Disponibles</h2>
         </div>
         <ul class="list-apps">
             <li>
-                <img class="icon" src="images/icon_promesa.png" alt="">
-                <div class="vstack">
-                    <strong class="title">Promesas Presidenciales</strong>
-                    <small class="version">Version 1.0</small>
-                    <a href="itms-services://?action=download-manifest&url=https://presidenciahndev.github.io/PromesaMobile/PromesaMobile.plist">Instalar Ahora</a>
-                </div>
+                <a href="itms-services://?action=download-manifest&url=https://presidenciahndev.github.io/PromesasMobile/PromesasMobile.plist">
+                    <img class="icon" src="images/icon_promesa.png" alt="">
+                    <div class="vstack">
+                        <strong class="title">Promesas Presidenciales</strong>
+                        <small class="version">Version 1.0</small>
+                        <span class="btn">Instalar Ahora</span>
+                    </div>
+                </a>
             </li>
             <li>
-                <img class="icon" src="images/icon_fideicomiso.png" alt="">
-                <div class="vstack">
-                    <strong class="title">Aplicacion de Fideicomisos</strong>
-                    <small class="version">Version 1.3</small>
-                    <a href="itms-services://?action=download-manifest&url=https://presidenciahndev.github.io/FideicomisoMobile/FideicomisoMobile.plist">Instalar Ahora</a>
-                </div>
+                <a href="itms-services://?action=download-manifest&url=https://presidenciahndev.github.io/FideicomisoMobile/FideicomisoMobile.plist">
+                    <img class="icon" src="images/icon_fideicomiso.png" alt="">
+                    <div class="vstack">
+                        <strong class="title">Fideicomisos</strong>
+                        <small class="version">Version 1.3</small>
+                        <span class="btn">Instalar Ahora</span>
+                    </div>
+                </a>
             </li>
         </ul>
+        <div class="sub-header">
+            <h2>¿Como Instalar y Autorizar el App?</h2>
+        </div>
+        <div class="content">
+            <p><strong>Paso 1:</strong> Presionar el boton de instalar ahora de cualquiera de las apps y esperar que se descarguen e instalen.</p>
+
+            <p><strong>Paso 2:</strong> Después de descargar la aplicación, los usuarios deben confiar en el certificado en <strong>Configuración → General → Perfiles → Gobierno De La Republica de Honduras</strong> luego presionar el boton de <strong>Confiar en "Gobierno De La Republica de Honduras"</strong></p>
+            <hr>
+            <h4>Video explicativo para instalar apps:</h4>
+            <div class="video-wrapper">
+                <video loop autoplay controls="true" width='100%' height='200px' src='/videos/tutorial.MP4' type='video/mp4'></video>
+            </div>
+        </div>
     </div>
 </body>
 </html>
