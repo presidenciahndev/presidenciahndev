@@ -6,15 +6,6 @@
 	<true/>
 	<key>destination</key>
 	<string>export</string>
-	<key>manifest</key>
-	<dict>
-		<key>appURL</key>
-		<string>https://presidenciahndev.github.io/PromesasMobile/PromesasMobile.ipa</string>
-		<key>displayImageURL</key>
-		<string>https://presidenciahndev.github.io/images/icon_promesa.57x57.png</string>
-		<key>fullSizeImageURL</key>
-		<string>https://presidenciahndev.github.io/images/icon_promesa.png</string>
-	</dict>
 	<key>method</key>
 	<string>enterprise</string>
 	<key>signingStyle</key>
