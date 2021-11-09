@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>registroCP.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>B9E01504058D664E74D2BE12910945DAD07E1A5A</string>
+				<key>dateExpires</key>
+				<string>14/1/24</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B9E01504058D664E74D2BE12910945DAD07E1A5A</string>
+						<key>dateExpires</key>
+						<string>14/1/24</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>OpenSSL.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>X9YH3DH55R</string>
+						<key>name</key>
+						<string>Gobierno De La Republica De Honduras</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.1.180</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>X9YH3DH55R.radt.rn.registroCP</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>X9YH3DH55R</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>X9YH3DH55R.radt.rn.registroCP</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>registroCP.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>048f1897-a5a1-40fe-bfb2-da926158e4ef</string>
+				<key>dateExpires</key>
+				<string>8/11/22</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: radt.rn.registroCP</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>X9YH3DH55R</string>
+				<key>name</key>
+				<string>Gobierno De La Republica De Honduras</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
